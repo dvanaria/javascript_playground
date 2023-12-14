@@ -3,47 +3,17 @@
 <html>
   <head>
     <title>The Ideal Playground</title>
-
-    <link href="/playground.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link href="./playground.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
-    <script src="/playground.js"></script>
-    <script src="/bresenham.js"></script>
-    <script>
-      /*
-      let x1, y1, x2, y2;
-      for (let i = 0; i < 5000; i++) {
-        x1 = Math.floor(Math.random() * 320);
-        y1 = Math.floor(Math.random() * 240);
-        x2 = Math.floor(Math.random() * 320);
-        y2 = Math.floor(Math.random() * 240);
-        if (x1 < 105) {
-          ctx.fillStyle = "#FF0000";
-        } else if (x1 < 210) {
-          ctx.fillStyle = "#00FF00";
-        } else {
-          ctx.fillStyle = "#0000FF";
-        }
-        plotLine(x1, y1, x2, y2);
-      }
-      ctx.fillStyle = "#FFFF00";
-      ctx.fillRect(5, 5, 310, 230);
-      ctx.fillStyle = "#000000";
-      for (let i = 0; i < 500; i++) {
-        x1 = Math.floor(Math.random() * 320);
-        y1 = Math.floor(Math.random() * 240);
-        x2 = Math.floor(Math.random() * 320);
-        y2 = Math.floor(Math.random() * 240);
-        plotLine(x1, y1, x2, y2);
-      }
-      */
+    <script src="./color.js"></script>
+    <script src="./playground.js"></script>
+    <script src="./bresenham.js"></script>
+    <script src="./input.js"></script>
+    <script src="./howler.core.js"></script>
+    <script src="./main_program.js"></script>
 
-      ctx.fillStyle = "#FFFFFF";
-      ctx.font = "12px Courier New";
-      ctx.fillText("Hello World", 1, 1);
-      ctx.fillText("Hello World", 10, 10);
-      ctx.fillText("Hello World", 50, 50);
-    </script>
   </body>
 </html>

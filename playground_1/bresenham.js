@@ -1,6 +1,3 @@
-
-
-
 /**
  * Bresenham Curve Rasterizing Algorithms
  * @author  Zingl Alois
